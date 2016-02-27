@@ -161,12 +161,12 @@ Environment.SpecialFolder.ApplicationData), "AutoBuddy"));
 
         private static void createFS()
         {
-            Directory.CreateDirectory(Path.Combine(Environment.GetFolderPath(
-                Environment.SpecialFolder.ApplicationData), "AutoBuddy"));
-            Directory.CreateDirectory(Path.Combine(Environment.GetFolderPath(
-                Environment.SpecialFolder.ApplicationData), "AutoBuddy\\Builds"));
-            Directory.CreateDirectory(Path.Combine(Environment.GetFolderPath(
-                Environment.SpecialFolder.ApplicationData), "AutoBuddy\\Skills"));
+            //Directory.CreateDirectory(Path.Combine(Environment.GetFolderPath(
+            //    Environment.SpecialFolder.ApplicationData), "AutoBuddy"));
+            //Directory.CreateDirectory(Path.Combine(Environment.GetFolderPath(
+            //    Environment.SpecialFolder.ApplicationData), "AutoBuddy\\Builds"));
+            //Directory.CreateDirectory(Path.Combine(Environment.GetFolderPath(
+            //    Environment.SpecialFolder.ApplicationData), "AutoBuddy\\Skills"));
         }
     }
 }
